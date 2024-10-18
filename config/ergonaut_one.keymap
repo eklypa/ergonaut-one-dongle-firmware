@@ -27,6 +27,7 @@
         LayoutChange {
             bindings = <&kp LG(SPACE)>;
             key-positions = <37 40>;
+            timeout-ms = <200>;
         };
     };
 
