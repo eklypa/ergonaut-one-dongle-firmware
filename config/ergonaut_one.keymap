@@ -54,10 +54,10 @@
 
         raise_layer {
             bindings = <
-&kp LGUI      &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &kp PAGE_UP    &kp HOME    &kp UP_ARROW      &kp END     &kp C_VOLUME_UP    &kp INSERT
-&kp LEFT_ALT  &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS   &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_VOLUME_DOWN  &none
-&kp LCTRL     &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL     &none          &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE         &none
-                                       &trans  &trans  &trans        &trans         &trans      &trans
+&kp LGUI      &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END     &kp C_VOLUME_UP    &kp INSERT
+&kp LEFT_ALT  &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS   &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT   &kp C_VOLUME_DOWN  &none
+&kp LCTRL     &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL     &none          &none     &kp KP_COMMA  &kp KP_DOT  &none              &none
+                                       &trans  &trans  &trans        &trans         &trans    &trans
             >;
         };
 
