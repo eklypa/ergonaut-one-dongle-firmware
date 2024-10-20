@@ -21,15 +21,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        LayoutChange {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <37 40>;
-            timeout-ms = <200>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
