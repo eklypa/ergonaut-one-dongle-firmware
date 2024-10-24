@@ -27,6 +27,7 @@
         Brackets1 {
             bindings = <&brackets1>;
             key-positions = <22 21>;
+            layers = <1>;
         };
     };
 
