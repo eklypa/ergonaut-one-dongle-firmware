@@ -21,7 +21,23 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Brackets1 {
+            bindings = <&brackets1>;
+            key-positions = <22 21>;
+        };
+    };
+
+    macros {
+        brackets1: brackets1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            label = "BRACKETS1";
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
