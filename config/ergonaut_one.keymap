@@ -33,11 +33,13 @@
         Brackets2 {
             bindings = <&brackets2>;
             key-positions = <31 32>;
+            layers = <1>;
         };
 
         Brackets3 {
             bindings = <&brackets3>;
             key-positions = <33 34>;
+            layers = <1>;
         };
     };
 
