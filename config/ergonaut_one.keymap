@@ -29,6 +29,16 @@
             key-positions = <22 21>;
             layers = <1>;
         };
+
+        Brackets2 {
+            bindings = <&brackets2>;
+            key-positions = <31 32>;
+        };
+
+        Brackets3 {
+            bindings = <&brackets3>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
@@ -37,6 +47,20 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
             label = "BRACKETS1";
+        };
+
+        brackets2: brackets2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            label = "BRACKETS2";
+        };
+
+        brackets3: brackets3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "BRACKETS3";
         };
     };
 
